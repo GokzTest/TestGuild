@@ -20,7 +20,7 @@ public class VerifyCustomerGroupsPage extends TestBase {
 	@Test (priority=21)
 	public void verifyCustomerGroupPageDisplay() {
 		login = new LoginPage(driver);
-		login.login();
+
 		user = new UsersPage(driver);
 		user.ClickEndtour();
 		sup = new SuppliersPage(driver);
